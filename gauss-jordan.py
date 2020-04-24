@@ -27,5 +27,5 @@ def guassElimination(A, b):
 if __name__ == "__main__":
     A = (np.random.rand(3,3)*10).astype(int)
     b = (np.random.rand(3,1)*10).astype(int)
-    print guassElimination(np.copy(A), np.copy(b))
+    print (guassElimination(np.copy(A), np.copy(b)))
 
